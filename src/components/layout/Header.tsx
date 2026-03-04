@@ -13,7 +13,11 @@ export function Header() {
       <Container>
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link to="/" className="flex items-center gap-2">
-            <Building2 className="w-8 h-8 text-primary-600" />
+            <img 
+              src="/img/logo.png" 
+              alt="Solano Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <span className="text-xl font-bold text-gray-900">Solano</span>
           </Link>
 
