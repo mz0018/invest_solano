@@ -16,6 +16,17 @@ import type {
   PeopleItem,
 } from '@/types';
 
+import {
+  municipalityStats,
+  businessProfile,
+  educationStats,
+  landRates,
+  incentives as incentiveConfig,
+  contactPerson,
+} from './numbers';
+
+export { municipalityStats, businessProfile, educationStats, landRates, incentiveConfig, contactPerson };
+
 export const navItems: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
@@ -24,73 +35,73 @@ export const navItems: NavItem[] = [
 ];
 
 export const heroSection: HeroSection = {
-  title: 'Invest in the Future. Invest in Solano.',
-  subtitle: 'Discover unprecedented growth opportunities in a municipality poised for rapid economic development. Join forward-thinking investors shaping tomorrow\'s economy.',
+  title: 'Step Into Progress. Invest Now in Solano.',
+  subtitle: "Solano isn't just growing, it's growing smart. With upgraded markets, efficient utilities, continued investments in infrastructure and a conducive business environment, Solano welcomes investments that create jobs and spark inclusive growth.",
   ctaPrimary: 'Explore Investment Opportunities',
   ctaSecondary: 'View Municipal Profile',
   imageUrl: '/hero-background.jpg',
 };
 
 export const stats: Stat[] = [
-  { value: '65,000+', label: 'Population' },
-  { value: '28,000+', label: 'Workforce' },
-  { value: '1,200+', label: 'Businesses' },
-  { value: 'Strategic', label: 'Location' },
-  { value: '50+', label: 'Infrastructure Projects' },
-  { value: '12%', label: 'Annual Growth Rate' },
+  { value: municipalityStats.population, label: 'Population' },
+  { value: municipalityStats.workforce, label: 'Workforce' },
+  { value: businessProfile.registeredBusinesses, label: 'Businesses' },
+  { value: municipalityStats.barangays.toString(), label: 'Barangays' },
+  { value: municipalityStats.landArea, label: 'Land Area' },
+  { value: municipalityStats.populationGrowthRate, label: 'Growth Rate' },
 ];
 
 export const whyInvestItems: WhyInvestItem[] = [
   {
     id: '1',
     title: 'Cost Efficiency',
-    description: 'Competitive operational costs with affordable land, labor, and utilities. Maximize your ROI with lower overhead expenses.',
+    description: `Competitive land rates starting at ${landRates.agricultural} for agricultural and ${landRates.industrial} for industrial use. Maximize your ROI with lower overhead expenses.`,
     icon: 'DollarSign',
   },
   {
     id: '2',
     title: 'Skilled Workforce',
-    description: 'Access to a trained labor pool with diverse skill sets. Strong educational institutions producing industry-ready talent.',
+    description: `Access to ${municipalityStats.workforce} workforce with ${educationStats.stemGraduates} STEM graduates and ${educationStats.techVetCompleters} tech-voc completers ready for employment.`,
     icon: 'Users',
   },
   {
     id: '3',
     title: 'Strong Infrastructure',
-    description: 'Modern roads, reliable power grid, and robust telecommunications. Foundation built for scalable operations.',
+    description: 'Modern roads, reliable power grid, and robust telecommunications. Foundation built for scalable operations with fiber-ready connectivity.',
     icon: 'HardHat',
   },
   {
     id: '4',
     title: 'Business-Friendly Governance',
-    description: 'Streamlined permitting processes and responsive local government. Your success is our priority.',
+    description: 'Streamlined permitting through our Business One-Stop Shop (BOSS). Responsive local government committed to your success.',
     icon: 'Building2',
   },
 ];
 
 export const priorityAreas: PriorityArea[] = [
-  { id: 'agriculture', name: 'Agriculture', icon: 'Sprout' },
+  { id: 'commercial', name: 'Commercial', icon: 'Store' },
   { id: 'tourism', name: 'Tourism', icon: 'Landmark' },
+  { id: 'agri-business', name: 'Agri-Business', icon: 'Sprout' },
   { id: 'manufacturing', name: 'Manufacturing', icon: 'Factory' },
-  { id: 'agro-industrial', name: 'Agro-Industrial', icon: 'Warehouse' },
   { id: 'public-utilities', name: 'Public Utilities', icon: 'Zap' },
-  { id: 'construction', name: 'Construction', icon: 'Hammer' },
+  { id: 'ict', name: 'ICT / BPO', icon: 'HardHat' },
 ];
 
 export const incentivesPreview: CardItem[] = [
   {
     id: 'fiscal',
     title: 'Fiscal Incentives',
-    description: 'Tax holidays, exemptions, and reduced rates for qualifying investments.',
+    description: `${incentiveConfig.businessTaxDiscount} discount on business tax for ${incentiveConfig.discountYears} years for qualifying investments.`,
   },
   {
     id: 'tax',
     title: 'Tax Discounts',
-    description: 'Special discounts on real property taxes and local business taxes.',
+    description: `${incentiveConfig.propertyTaxDiscount} discount on real property taxes for registered enterprises.`,
   },
   {
     id: 'process',
     title: 'Streamlined Processing',
-    description: 'Fast-track permits and licenses through our one-stop shop system.',
+    description: 'Fast-track permits and licenses through our Business One-Stop Shop (BOSS) system.',
   },
 ];
 
@@ -98,52 +109,52 @@ export const investmentSectors: InvestmentSector[] = [
   {
     id: 'agriculture',
     name: 'Agriculture',
-    description: 'Rich agricultural land with year-round farming potential. Opportunities in crop production, livestock, and agribusiness.',
+    description: `With ${businessProfile.riceFarmers} rice farmers and ${businessProfile.cornFarmers} corn farmers, Solano's agricultural sector offers immense opportunities for modern farming, value-added processing, and farm-to-market logistics.`,
     icon: 'Sprout',
   },
   {
-    id: 'agro-industrial',
+    id: 'agri-business',
     name: 'Agro-Industrial',
-    description: 'Process raw agricultural outputs into finished products. Food processing, packaging, and value-added manufacturing.',
+    description: 'Cold storage facilities, postharvest handling, and food processing operations. Turn local produce into finished goods for regional and export markets.',
     icon: 'Warehouse',
   },
   {
     id: 'manufacturing',
     name: 'Manufacturing',
-    description: 'Light to medium manufacturing operations. Available industrial zones with modern utilities.',
+    description: 'Light to medium manufacturing operations in designated industrial zones. Available land with complete infrastructure ready for development.',
     icon: 'Factory',
   },
   {
     id: 'tourism',
     name: 'Tourism',
-    description: 'Untapped tourism potential with natural attractions. Eco-tourism, cultural tourism, and hospitality ventures.',
+    description: 'Eco-tourism sites, resort development, and hospitality ventures. Untapped potential in Solano\'s natural attractions and cultural heritage.',
     icon: 'Landmark',
   },
   {
     id: 'public-utilities',
     name: 'Public Utilities',
-    description: 'Essential services infrastructure. Water distribution, renewable energy, and telecommunications.',
+    description: 'Power, water, telecommunications, and waste management infrastructure. Essential services supporting business operations and community needs.',
     icon: 'Zap',
   },
   {
-    id: 'construction',
-    name: 'Construction',
-    description: 'Residential, commercial, and infrastructure construction projects. Real estate development opportunities.',
-    icon: 'Hammer',
+    id: 'ict',
+    name: 'ICT / BPO',
+    description: 'Fiber-ready connectivity and digital infrastructure supporting IT-BPO operations. Growing talent pool with strong English proficiency.',
+    icon: 'HardHat',
   },
 ];
 
 export const incentives: Incentive[] = [
   {
     id: 'fiscal-1',
-    title: 'Income Tax Holiday',
-    description: 'Up to 6 years of income tax exemption for registered enterprises.',
+    title: 'Business Tax Discount',
+    description: `${incentiveConfig.businessTaxDiscount} discount on local business taxes for new investments for up to ${incentiveConfig.discountYears} years.`,
     type: 'fiscal',
   },
   {
     id: 'fiscal-2',
-    title: 'Duty-Free Importation',
-    description: 'Exemption from customs duties on imported capital equipment and raw materials.',
+    title: 'Property Tax Discount',
+    description: `${incentiveConfig.propertyTaxDiscount} discount on real property taxes for qualifying enterprises.`,
     type: 'fiscal',
   },
   {
@@ -154,32 +165,38 @@ export const incentives: Incentive[] = [
   },
   {
     id: 'non-fiscal-1',
-    title: 'Employment Assistance',
-    description: 'Government support in recruitment and training of local workforce.',
+    title: 'Dedicated Investment Support',
+    description: 'Assigned liaison officer to assist throughout the application and operations process.',
     type: 'non-fiscal',
   },
   {
     id: 'non-fiscal-2',
-    title: 'Infrastructure Support',
-    description: 'Road access, water connection, and power line extension assistance.',
+    title: 'Fast-Tracked Approvals',
+    description: 'Expedited processing of permits and licenses through the Business One-Stop Shop (BOSS).',
     type: 'non-fiscal',
   },
   {
     id: 'non-fiscal-3',
-    title: 'One-Stop Permit Processing',
-    description: 'Expedited processing of all business permits and licenses.',
+    title: 'Site Facilitation',
+    description: 'Assistance with site identification, land acquisition, and coordination with local stakeholders.',
+    type: 'non-fiscal',
+  },
+  {
+    id: 'non-fiscal-4',
+    title: 'Labor Linkages',
+    description: 'Access to local labor pool and coordination with technical-vocational training institutions.',
     type: 'non-fiscal',
   },
   {
     id: 'env-1',
     title: 'Green Energy Incentives',
-    description: 'Additional benefits for renewable energy and sustainable projects.',
+    description: 'Additional benefits for renewable energy projects and sustainable business practices.',
     type: 'environmental',
   },
   {
     id: 'env-2',
     title: 'Eco-Tourism Development',
-    description: 'Special incentives for environmentally conscious tourism ventures.',
+    description: 'Special incentives for environmentally conscious tourism and eco-tourism ventures.',
     type: 'environmental',
   },
 ];
@@ -187,23 +204,28 @@ export const incentives: Incentive[] = [
 export const processSteps: ProcessStep[] = [
   {
     step: 1,
-    title: 'Application Filing',
-    description: 'Submit your investment application with required documents to the Municipal Investment Desk.',
+    title: 'Filing of Application',
+    description: 'Submit your investment application with required documents to the Municipal Investment Office within 30 days from issuance of Mayor\'s permit.',
   },
   {
     step: 2,
-    title: 'Initial Assessment',
-    description: 'Our team evaluates your application and conducts site visit to verify project viability.',
+    title: 'Assessment of Documents',
+    description: 'The municipal office shall assess the completeness of the documentary requirements and supporting documents.',
   },
   {
     step: 3,
-    title: 'Technical Evaluation',
-    description: 'Inter-agency review including environmental compliance and technical requirements.',
+    title: 'Site Inspection',
+    description: 'The municipal office or authorized officers shall conduct a site inspection for compliance with local regulations.',
   },
   {
     step: 4,
-    title: 'Approval & Registration',
-    description: 'Final approval from the Municipal Investment Committee and registration certificate issuance.',
+    title: 'Evaluation and Approval',
+    description: 'The Investment Promotion Board will evaluate the project and make a recommendation based on compliance with development goals.',
+  },
+  {
+    step: 5,
+    title: 'Order of Payment & Registration',
+    description: 'Upon approval, an order of payment and certificate of registration will be issued with incentives accorded as prescribed.',
   },
 ];
 
@@ -229,34 +251,34 @@ export const downloadItems: DownloadItem[] = [
 ];
 
 export const contactInfo: ContactInfo = {
-  phone: '+63 (999) 123-4567',
-  email: 'invest@solano.gov.ph',
+  phone: contactPerson.phone,
+  email: contactPerson.email,
   address: 'Municipal Hall, Solano, Nueva Vizcaya',
   hours: 'Monday - Friday: 8:00 AM - 5:00 PM',
 };
 
 export const aboutOverview = {
-  overview: 'Solano is a thriving municipality in Nueva Vizcaya, Philippines. Known for its strategic location, rich agricultural lands, and business-friendly environment, Solano offers exceptional opportunities for investors seeking growth in a dynamic regional economy.',
+  overview: 'Strategically located at the heart of Nueva Vizcaya, Solano, a first class municipality, stands as a premier center for commerce and trade in the province. The municipality benefits from its diverse economy, prime location, and modern infrastructure, providing investors with opportunities for agriculture, agro-industry, business, and services. Solano\'s people and local government work to sustain a supportive environment for economic growth and partnerships.',
 };
 
 export const lensItems: LensItem[] = [
   {
-    id: 'culture',
-    title: 'Culture & Heritage',
-    description: 'A vibrant community celebrating indigenous traditions and cultural festivals that showcase our rich heritage.',
-    icon: 'Palette',
+    id: 'agriculture',
+    title: "Solano's Good Crop",
+    description: "From the long-standing agricultural tradition, Solano continues to be an important agriculture producer for the region. The agricultural base, main crops, and the role of agri-business drive the local economy.",
+    icon: 'Sprout',
   },
   {
     id: 'community',
-    title: 'Community Life',
-    description: 'A welcoming community with strong family values, active civic participation, and quality of life.',
+    title: 'People & Community',
+    description: 'A welcoming community with strong family values, active civic participation, and quality of life. Daily market scenes and local produce define our vibrant community.',
     icon: 'Heart',
   },
   {
-    id: 'economic-identity',
-    title: 'Economic Identity',
-    description: 'A growing economic hub balancing agriculture, commerce, and emerging industries.',
-    icon: 'TrendingUp',
+    id: 'tourism',
+    title: 'Tourism & Culture',
+    description: 'Local festivals, cultural assets, and heritage sites. Unique cultural highlights and community attractions make Solano a cultural destination.',
+    icon: 'Landmark',
   },
 ];
 
@@ -264,49 +286,49 @@ export const municipalItems: MunicipalItem[] = [
   {
     id: 'geography',
     title: 'Geographic Location',
-    content: 'Strategically positioned in the heart of Nueva Vizcaya, serving as the commercial and administrative center of the province.',
+    content: 'Strategically positioned in the heart of Nueva Vizcaya, serving as the commercial and administrative center of the province with excellent road connectivity.',
   },
   {
     id: 'demographics',
     title: 'Demographics',
-    content: 'A population of over 65,000 residents with a young, growing workforce and expanding consumer market.',
+    content: `A population of ${municipalityStats.population} residents across ${municipalityStats.barangays} barangays with a young, growing workforce and expanding consumer market.`,
   },
   {
     id: 'land',
     title: 'Land Area & Barangays',
-    content: 'Spanning over 14,000 hectares across 22 barangays, offering diverse terrain from lowlands to elevated areas.',
+    content: `Spanning ${municipalityStats.landArea} across ${municipalityStats.barangays} barangays, offering diverse terrain from lowlands to elevated areas suitable for various investments.`,
   },
   {
     id: 'indicators',
     title: 'Key Economic Indicators',
-    content: 'Consistent growth in GRDP, increasing investment registrations, and declining unemployment rates.',
+    content: `Growing economy with ${businessProfile.registeredBusinesses} registered businesses and ${businessProfile.sme} small and medium enterprises driving local commerce.`,
   },
 ];
 
 export const businessCoreItems: BusinessCoreItem[] = [
   {
-    id: 'commercial',
-    title: 'Commercial Centers',
-    description: 'Growing retail and service sector with modern shopping establishments and local businesses.',
+    id: 'municipal-hall',
+    title: 'Municipal Hall',
+    description: 'Center of local governance providing services for business registration, permits, and LGU assistance.',
+    icon: 'Building2',
+  },
+  {
+    id: 'boss',
+    title: 'Business One-Stop Shop (BOSS)',
+    description: 'Streamlines permits and regulatory requirements, reducing time and cost for starting a business.',
     icon: 'Store',
   },
   {
     id: 'market',
     title: 'Public Market',
-    description: 'Bustling public market serving as the primary trading hub for agricultural products.',
+    description: 'Solano Main and Annex Public Market with amenities and load capacity for traders and agricultural products.',
     icon: 'ShoppingBag',
   },
   {
-    id: 'transport',
-    title: 'Transport Hubs',
-    description: 'Integrated transportation network connecting to major cities and provinces.',
-    icon: 'Bus',
-  },
-  {
-    id: 'zones',
-    title: 'Growth Zones',
-    description: 'Designated industrial and commercial zones with complete infrastructure support.',
-    icon: 'MapPin',
+    id: 'digital',
+    title: 'Digital Business Services',
+    description: 'Reliable, fast, investor-friendly connectivity and services for online and digital businesses.',
+    icon: 'HardHat',
   },
 ];
 
@@ -314,25 +336,32 @@ export const peopleItems: PeopleItem[] = [
   {
     id: 'workforce',
     title: 'Workforce Overview',
-    description: 'A skilled and adaptable workforce with strong work ethics and technical capabilities.',
+    description: `A skilled and adaptable workforce of ${municipalityStats.workforce} with strong work ethics and technical capabilities ready to power your growth.`,
     icon: 'Users',
   },
   {
     id: 'education',
     title: 'Education Institutions',
-    description: 'Multiple colleges and technical schools producing industry-ready graduates annually.',
+    description: `${educationStats.elementarySchools} elementary schools, ${educationStats.secondarySchools} secondary schools, and ${educationStats.vocationalSchools} vocational institutions producing industry-ready graduates.`,
     icon: 'GraduationCap',
   },
   {
     id: 'skills',
     title: 'Skills & Talent',
-    description: 'Diverse talent pool with expertise in agriculture, technology, trades, and services.',
+    description: `${educationStats.stemGraduates} STEM graduates and ${educationStats.techVetCompleters} Tech-VET completers ready to power Solano's development across multiple sectors.`,
     icon: 'Award',
   },
   {
     id: 'governance',
     title: 'Governance & Leadership',
-    description: 'Transparent and efficient local government committed to sustainable development.',
+    description: 'Transparent and efficient local government committed to sustainable development and investment promotion.',
     icon: 'Shield',
   },
 ];
+
+export const ctaSection = {
+  title: "Step Into Progress. Invest Now in Solano.",
+  subtitle: "Let's turn possibilities into partnerships. The future is here, and we are ready for you!",
+  ctaPrimary: 'Start Investment Process',
+  ctaSecondary: 'Contact Investment Desk',
+};
