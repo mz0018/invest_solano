@@ -52,46 +52,46 @@ export function Contact() {
             <Card className="h-full">
               <h2 className="text-xl font-semibold text-gray-900 mb-6">Investment Desk</h2>
               <div className="space-y-6">
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 min-w-0">
                   <div className="flex-shrink-0">
                     <div className="w-10 h-10 rounded-lg bg-primary-100 text-primary-600 flex items-center justify-center">
                       <Icon name="MapPinned" size={20} />
                     </div>
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <h3 className="font-medium text-gray-900">Address</h3>
                     <p className="text-gray-600">{contactInfo.address}</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 min-w-0">
                   <div className="flex-shrink-0">
                     <div className="w-10 h-10 rounded-lg bg-primary-100 text-primary-600 flex items-center justify-center">
                       <Icon name="Phone" size={20} />
                     </div>
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <h3 className="font-medium text-gray-900">Phone</h3>
                     <p className="text-gray-600">{contactInfo.phone}</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 min-w-0">
                   <div className="flex-shrink-0">
                     <div className="w-10 h-10 rounded-lg bg-primary-100 text-primary-600 flex items-center justify-center">
                       <Icon name="Mail" size={20} />
                     </div>
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <h3 className="font-medium text-gray-900">Email</h3>
                     <p className="text-gray-600">{contactInfo.email}</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 min-w-0">
                   <div className="flex-shrink-0">
                     <div className="w-10 h-10 rounded-lg bg-primary-100 text-primary-600 flex items-center justify-center">
                       <Icon name="Clock" size={20} />
                     </div>
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <h3 className="font-medium text-gray-900">Business Hours</h3>
                     <p className="text-gray-600">{contactInfo.hours}</p>
                   </div>

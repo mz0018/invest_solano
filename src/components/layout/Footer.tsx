@@ -7,8 +7,8 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300">
       <Container>
-        <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div>
+        <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+          <div className="min-w-0">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <Building2 className="w-8 h-8 text-primary-400" />
               <span className="text-xl font-bold text-white">Solano</span>
@@ -18,7 +18,7 @@ export function Footer() {
             </p>
           </div>
 
-          <div>
+          <div className="min-w-0">
             <h3 className="font-semibold text-white mb-4">Quick Links</h3>
             <ul className="space-y-2">
               {navItems.map((item) => (
@@ -27,20 +27,20 @@ export function Footer() {
                     to={item.href}
                     className="text-sm hover:text-primary-400 transition-colors flex items-center gap-1"
                   >
-                    <ArrowRight size={14} />
-                    {item.label}
+                    <ArrowRight size={14} className="flex-shrink-0" />
+                    <span className="truncate">{item.label}</span>
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          <div>
+          <div className="min-w-0">
             <h3 className="font-semibold text-white mb-4">Contact</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPinned size={16} className="mt-0.5 flex-shrink-0" />
-                <span>{contactInfo.address}</span>
+                <span className="truncate">{contactInfo.address}</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} className="flex-shrink-0" />
@@ -48,7 +48,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={16} className="flex-shrink-0" />
-                <span>{contactInfo.email}</span>
+                <span className="truncate">{contactInfo.email}</span>
               </li>
             </ul>
           </div>

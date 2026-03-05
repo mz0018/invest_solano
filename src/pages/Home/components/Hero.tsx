@@ -3,16 +3,19 @@ import { ArrowRight } from 'lucide-react';
 import { Container, Button, Section } from '@/components/ui';
 import { heroSection } from '@/data/content';
 
+const VIMEO_VIDEO_ID = '1128761634';
+
 export function Hero() {
   return (
-    <Section className="relative min-h-[90vh] flex items-center bg-gradient-to-br from-gray-50 to-gray-100">
+    <Section className="relative min-h-[90vh] flex items-center overflow-hidden">
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-green-600 via-green-700 to-green-900" />
       <Container>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-2xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 drop-shadow-lg">
               {heroSection.title}
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
+            <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed drop-shadow-md">
               {heroSection.subtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -23,17 +26,21 @@ export function Hero() {
                 </Button>
               </Link>
               <Link to="/about">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                <Button variant="outline" size="lg" className="w-full sm:w-auto bg-white/10 border-white/30 text-white hover:bg-white/20">
                   {heroSection.ctaSecondary}
                 </Button>
               </Link>
             </div>
           </div>
-          <div className="hidden lg:block relative">
-            <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-primary-200 to-accent-200 overflow-hidden shadow-2xl">
-              <div className="w-full h-full flex items-center justify-center text-primary-600 text-opacity-50">
-                <span className="text-2xl font-medium">Aerial Photo Here</span>
-              </div>
+          <div className="relative">
+            <div className="aspect-[4/3] rounded-2xl bg-white/10 backdrop-blur-sm overflow-hidden shadow-2xl border border-white/20">
+              <iframe
+                src={`https://player.vimeo.com/video/${VIMEO_VIDEO_ID}?background=1&autoplay=1&loop=1&muted=1&controls=1`}
+                className="absolute top-0 left-0 w-full h-full"
+                allow="autoplay; fullscreen; picture-in-picture"
+                title="Aerial video of Solano"
+                allowFullScreen
+              />
             </div>
           </div>
         </div>

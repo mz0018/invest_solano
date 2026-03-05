@@ -18,7 +18,7 @@ export function Card({ children, className = '', hover = false, padding = 'md' }
   return (
     <div
       className={`
-        bg-white rounded-xl shadow-sm border border-gray-100
+        bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden
         ${hover ? 'transition-all duration-300 hover:shadow-xl hover:-translate-y-1' : ''}
         ${paddingStyles[padding]}
         ${className}

@@ -1,0 +1,11 @@
+Yes! To reuse this Vimeo video in your other project, you need:
+Video ID: 1128761634
+Embed URL:
+https://player.vimeo.com/video/1128761634?background=1&autoplay=1&loop=1&muted=1&controls=0
+Options:
+- HTML iframe: Add this to your HTML:
+    <iframe src="https://player.vimeo.com/video/1128761634?background=1&autoplay=1&loop=1&muted=1&controls=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  
+- Vimeo Player SDK: Install via npm:
+    npm install @vimeo/player
+    Then use the embed URL above.

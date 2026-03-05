@@ -16,14 +16,14 @@ export function Opportunities() {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {investmentSectors.map((sector) => (
-            <Card key={sector.id} hover className="h-full">
-              <div className="flex items-start gap-4 mb-4">
+            <Card key={sector.id} hover className="h-full min-w-0">
+              <div className="flex items-start gap-4 mb-4 min-w-0">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 rounded-lg bg-accent-100 text-accent-600 flex items-center justify-center">
                     <Icon name={sector.icon} size={24} />
                   </div>
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">{sector.name}</h3>
+                <h3 className="text-lg font-semibold text-gray-900 min-w-0">{sector.name}</h3>
               </div>
               <p className="text-gray-600 text-sm">{sector.description}</p>
             </Card>

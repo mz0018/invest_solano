@@ -16,8 +16,8 @@ export function PeopleAsPower() {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {peopleItems.map((item) => (
-            <Card key={item.id} hover className="text-center h-full">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-accent-100 text-accent-600 mb-4">
+            <Card key={item.id} hover className="text-center h-full min-w-0">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-accent-100 text-accent-600 mb-4 flex-shrink-0">
                 <Icon name={item.icon} size={28} />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
