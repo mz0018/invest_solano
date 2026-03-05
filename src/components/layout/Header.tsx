@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Building2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { navItems } from '@/data/content';
 import { Button, Container } from '@/components/ui';
 
@@ -27,7 +27,7 @@ export function Header() {
                 key={item.href}
                 to={item.href}
                 className={`font-medium transition-colors ${
-                  location.pathname === item.href
+                  location.pathname === item.href || (item.href === '/barangays' && location.pathname.startsWith('/barangays'))
                     ? 'text-primary-600'
                     : 'text-gray-600 hover:text-primary-600'
                 }`}
@@ -56,7 +56,7 @@ export function Header() {
                 key={item.href}
                 to={item.href}
                 className={`block py-2 font-medium ${
-                  location.pathname === item.href
+                  location.pathname === item.href || (item.href === '/barangays' && location.pathname.startsWith('/barangays'))
                     ? 'text-primary-600'
                     : 'text-gray-600'
                 }`}

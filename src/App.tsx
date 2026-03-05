@@ -4,6 +4,8 @@ import { Home } from '@/pages/Home';
 import { About } from '@/pages/About';
 import { Invest } from '@/pages/Invest';
 import { Contact } from '@/pages/Contact';
+import { Barangays } from '@/pages/Barangays';
+import { BarangayDetail } from '@/pages/Barangays/[id]';
 
 function App() {
   return (
@@ -37,6 +39,22 @@ function App() {
         element={
           <PageLayout>
             <Contact />
+          </PageLayout>
+        }
+      />
+      <Route
+        path="/barangays"
+        element={
+          <PageLayout>
+            <Barangays />
+          </PageLayout>
+        }
+      />
+      <Route
+        path="/barangays/:id"
+        element={
+          <PageLayout>
+            <BarangayDetail />
           </PageLayout>
         }
       />

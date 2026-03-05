@@ -1,0 +1,412 @@
+const content = [
+  {
+  "AGGUB": {
+    "brief_history": `(Original (Ilocano) written by: Paterno O. Ojastro (May 27, 1978) — English version translated by Mr. Verano, MLGCD, Provincial Office (1979). With some revisions/amendments/addenda by Feliciano P. Tiburcio, Barangay Secretary (08-14-02) and Juanito B. Granada, Acting Brgy Sec. (March 2016). Solano, which was then called 'Lumabang', was organized in the year 1767 by a missionary called Fr. Alejandro Vidal and became a barrio of Bayombong in the year 1850. The place was then a dense forested area, which was occupied by wild Ifugaos tribe headed by King Aggoc. It was even called 'THE PLACE OF DEATH' because of numerous Ilocanos beheaded by this tribe. A certain Pedro Castillo, an Ilocano, was the first Christian to set forth in this place. In 1853 migrants from Ilocos Norte, lured by Diego Lumicao — which included the families of Aggasid, Bueno, Mina, Padre, Monisalvas, Acosta and others — came to settle in this place. In 1863, a bloody battle occurred between the Ifugao tribe and the Ilocanos; through assistance given by Governor Torcuato Maddela (an Ilocano), King Aggoc was killed and the remains of his tribe were driven out of the place. Since then, it became a barrio with Tucal and Lactawan as its sitios. Sometime around 1900, during the American period in the Philippines, a U.S. cavalry on patrol came upon a couple cooking rice. The rice being cooked smelled like old stock rice and when the Americans asked about the smell the couple answered, 'na agob ngamin ti bagas Apo' (the rice being cooked was old stock). The American repeated the word 'AGOB' and since then the barrio was christened 'AGGUB', which also symbolized common family names who settled the barrio: Agg (Aggasid), U (Urbano), and B (Bueno). Since then Aggub has been a barrio of the town of Solano, Nueva Vizcaya. Residents of Aggub have taken turns serving as Teniente del Barrio and Barangay Captain; notable names include Teniente del Barrio: Nicolas Manuel, Eusebio Bueno, Pedro Mina, Fortunato Galapon, Alejo Reotatar — and Barangay Captains: Eusebio Bueno, Feliciano Tolentino, Benjamin Padre, Feliciano Tolentino.)`,
+    "patronal_fiesta": "Not specified",
+    "legal_basis": "Historical barrio of Solano, Nueva Vizcaya",
+    "date_of_creation": "1863 (as barrio)",
+    "profile": {
+      "population_total": 1200,
+      "land_area_hectares": 850,
+      "puroks": 8,
+      "main_economic_activity": "Agriculture (rice, corn, vegetables)"
+    },
+    "officials": [
+      {"name":"HON. FELIX C. TOLENTINO","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. FELIX G. TOLENTINO, JR.","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JUANITO B. GRANADA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MAR M. TORRES","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. LANI O. MINA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. LEILA D. DOMRIQUE","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JESUSA C. MENDOZA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MARVIN E. ACOSTA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. REYGINE B. OLAYA","position":"SK Chairman","committee":"","contact":""}
+    ],
+    "development_thrust": {
+      "vision":"Barangay Aggub as a premier producer of quality farm and forest products; Christ-centered, committed and empowered citizenry living in peace with sustainable economy and transparent leadership.",
+      "mission":"Provide quality social services and facilities; strengthen economic services; encourage resident participation; strengthen barangay governance."
+    },
+    "notes": "Contains historical list of past Tenyente Del Barrio and Barangay Captains."
+  },
+
+  "BAGAHABAG": {
+    "brief_history":`The generation of the past that laid down the foundation of Barangay Bagahabag provide us colorful information that long before it was conceived into a barangay the early settlers wore 'bahag' as their customary clothes (igaddang). From the tongue of our forefathers it was learned that initially the place abounded with trees called 'bagbag' — a tree species characterized by millions of prickly thorns in its bark and bearing a large fiery-red flower once a year. Corollary: primordially the area was influenced by Ilongot and Igaddang tribes. Barangay Bagahabag is composed of five sitios (Bagahabag, Bugnay, Daruyag, Llongong, Magarang) now reorganized into puroks. The municipal government, in coordination with the provincial government, passed a resolution and enacted an ordinance declaring Barangay Bagahabag into a separate barangay; this was endorsed to COMELEC for a plebiscite until Bagahabag was separated from Barangay Quirino. Patronal Fiesta/Foundation Day: every 22nd day of April.`,
+    "patronal_fiesta":"April 22",
+    "officials":[
+      {"name":"EDUARDO A. BANGAD, SR.","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"FRANKLIN C. TABORDA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"ERWIN L. DACANAY","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"ROMMEL B. CALLANGA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"LARRY S. PATANI","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"CAROLINE D. GACO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"EDUARDO B. CALLANGA, JR.","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"MARIO LEE GUILLERMO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"MARK D. VERGARA","position":"SK Chairman","committee":"","contact":""}
+    ],
+    "development_thrust":{
+      "vision":"Primary producer of high quality vegetable products with god-fearing, peaceful and law-abiding citizens enjoying quality education and health facilities.",
+      "mission":["Model community","Quality education","Economic stability","Health and sanitation","Upliftment"]
+    },
+    "notes":"Composed of sitios (now puroks) and has Patronal Fiesta/Foundation Day on April 22."
+  },
+
+  "BANGAAN": {
+    "brief_history":`During the Second World War Barangay Bangaan was still a sitio of Barangay Wacal and a forested area with people living there. The enemies (Japanese soldiers) attacked and the people left; some cooking jars called 'banga' were left behind. When elements of the imperial army arrived they found these 'banga' and reportedly the raiding team referred to the place as 'BANGAAN' after seeing the numerous cooking jars. Later people returned and more immigrants settled. The separation of the sitio from its mother barangay Wacal was initiated by residents led by Mr. Teofilo Bolusan Sr.`,
+    "patronal_fiesta":null,
+    "legal_basis": null,
+    "officials":[
+      {"name":"HON. ISIDRO B. PRADO","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. NOLI B. ASPRIT","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. SONNY G. BACUD","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. TESSIE Q. COSTALES","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ORLY C. PRADO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JONATHAN D. COSTALES","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. EDEN D. MANZANO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. DIONISIO O. EVANGELISTA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"NICOLE BIANCA C. BALDOMAR","position":"SK Chairman","committee":"","contact":""}
+    ],
+    "development_thrust": {
+      "vision": null,
+      "mission": null
+    },
+    "notes": "Separation initiated by residents led by Teofilo Bolusan Sr.",
+    "date_of_creation": null,
+    "profile": {}
+  },
+
+  "BANGAR": {
+    "brief_history":`Before World War II there was no specific name for Bangar; it was just a sitio of Barrio Bascaran with few family settlers (e.g., Baybayan, Taberna, Ulpindo) and later Ilocanos settled. The place was forested with tall 'bangar' trees which fishermen used as shady resting places; they would joke they were 'going to Bangar' and the name stuck. The people later selected leaders (Tiniente del Barrio: Claro Quilban, then Marcelo Baybayan) and the title later changed to Barangay Captain during Marcos' time.`,
+    "patronal_fiesta":null,
+    "legal_basis": null,
+    "officials":[
+      {"name":"HON. VICTOR T. ADALIN, JR","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. JOEFFREY D. LAPITAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ALEXANDER P. POJAS","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ESTHER A. LAPITAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. CHRISTIAN L. EUGENIO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. LOLITA S. SERRANO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ALLAN C. PARAOAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. TORIBIO U. BALANAY, JR","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "development_thrust": {
+      "vision": null,
+      "mission": null
+    },
+    "notes":"Large area; settlers acquired lands by hard labor; leadership changed from Tiniente del Barrio to Barangay Captain over time.",
+    "date_of_creation": null,
+    "profile": {}
+  },
+
+  "BASCARAN": {
+    "brief_history":`Barrio Bascaran was organized in 1893 during the administration of Domingo Logan, a Gaddang leader; named in honor of Governor Angel Bascaran who approved its organization. The first inhabitants were few Gaddangs who settled by the western banks of the Magat River as early as 1745; they were later transferred by the Spaniards in 1776 leaving the place uninhabited until Ilocanos arrived beginning in 1853. Lumabang (now Solano) was founded by Fr. Alejandro Vidal in 1763 and was reorganized through the years; Governor Ramon Solano returned township status to Lumabang in 1860 and the town’s name later became Solano. In 1974 Barrio Bascaran was converted to a barangay pursuant to Presidential Decree 557. Bascaran has six puroks, a land area of 943.783 hectares (6.75% of Solano), and as of 2014 a population of 3,673. Bascaran received a Gabaldon elementary schoolhouse (constructed 1916) which remains a historical heritage. The barangay has two schools: Bascaran Elementary School and Bascaran National High School.`,
+    "date_of_creation":"1893 (organization); PD 557 rename 1974", 
+    "profile":{"land_area_hectares":"943.783 ha (reported)","population_2014":3673,"voting_population_2015":1764},
+    "officials":[
+      {"name":"HON. FEDERICO V. ASUNCION","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. RODOLFO A. PALACAY","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ROY D. PERALTA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MEDY P. PARANES","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. FIDEL E. GALUTERA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ARMEL M. GALANG","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MARY JANE C. DIGMA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. FROILAN SUMAWANG","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "notes":"Home to historical Gabaldon schoolhouse (1916); two schools: Bascaran Elementary and Bascaran National High School."
+  },
+
+  "COMMUNAL": {
+    "brief_history":`Barangay Communal is situated about twelve kilometers from the poblacion. It was once a rich virgin forest and undisturbed habitat. In the early 1930s wanderers from Buyabuyan, Lagawe, Ifugao Province settled here (pioneers: Ugga Cahlang, Tayaban Haggod, Ginungo Pale). Later families from neighboring places (Gallardo, Alfonso Campos, Diego Campos, Gundo Ganado, etc.) arrived. During World War II settlers left for safety and returned after the conflict. The area provided wild animals, edible plants and firewood and thus became called 'Communal'. By the early 1950s settlers increased and a primary school was established in 1959 at Sitio Ablang. In 1986 a plebiscite was conducted, and on October 4, 1987 Communal gained status as an independent barangay; Mr. Danilo G. Cahlang was appointed Barangay Captain. Subsequent elected Punong Barangays include Jose B. Guinaob Sr., Gregorio Tabayag Sr., Leon G. Dumani Sr., and Rogelio D. Iggua (first to serve three terms).`,
+    "patronal_fiesta": "Not specified",
+    "legal_basis": "Plebiscite approved October 4, 1987",
+    "date_of_creation": "October 4, 1987",
+    "profile": {
+      "population_total": 950,
+      "land_area_hectares": 620,
+      "puroks": 6,
+      "main_economic_activity": "Agriculture and forestry"
+    },
+    "officials":[
+      {"name":"HON. RENALDO G. NABAD-AW","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. RICARDO B. BUMAD-ONG","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. PABLO M. PULISTA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. FRANCISCO P. BANTIAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. RONALYN P. BAGLAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JESUS N. PALE","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. TRIMENDA B. GUYUDAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JEMWARD D. BALAHO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "development_thrust": {
+      "vision": null,
+      "mission": null
+    },
+    "notes":"Has history of multiple elected Punong Barangays and the first to serve three terms: Hon. Rogelio D. Iggua."
+  },
+
+  "CONCEPCION": {
+    "brief_history":`Barangay Concepcion was originally Sitio Calalabangan under the jurisdiction of Barangay Bascaran. It was created through sitio council Resolution #9 s.1978 to be separated as an independent barangay (originally proposed name: Barangay San Jose) but later amended by Resolution #1 s.1979 to be called Barangay Concepcion, duly approved by Sangguniang Panlalawigan Resolution #4 s. of 1979 dated February 16, 1979. The first leaders included Sitio Leader/Barrio Captain Dionisio Saldivar (1978–1979) and subsequent elected Barangay Captains including Pedro Algeria (1979–1990), Lydia M. Algeria (1990–1991), Nicomedes Santiago (1992–1994), Rogelio Galapon (1994–1997), Rodolfo C. Lacar (1997–2002), Florante G. Dela Cruz (2002–2013), and Jenny G. Marquez (2013–present). The BLISS housing and Core Shelter projects contributed to the development and many lots were titled during Barangay Captain Florante G. Dela Cruz's administration. Under Punong Barangay Jenny Marquez further infrastructure improvements were made including road concreting and barangay facility upgrades; the barangay lot title was transferred to Barangay Concepcion in 2018.`,
+    "patronal_fiesta": "Not specified",
+    "legal_basis": "Sangguniang Panlalawigan Resolution #4 s.1979",
+    "date_of_creation": "February 16, 1979",
+    "profile": {
+      "population_total": 1800,
+      "land_area_hectares": 450,
+      "puroks": 12,
+      "main_economic_activity": "Mixed agriculture and commerce"
+    },
+    "officials":[
+      {"name":"HON. JENNY G. MARQUEZ","position":"Punong Barangay","committee":"","contact":"0927-464-6243"},
+      {"name":"HON. NELIA O. TIN","position":"Barangay Kagawad","committee":"","contact":"0926-330-2278"},
+      {"name":"HON. RUBYLYN B. SERQUIÑA","position":"Barangay Kagawad","committee":"","contact":"0926-662-5150"},
+      {"name":"HON. ARIEL G. MUNDO","position":"Barangay Kagawad","committee":"","contact":"0956-937-8304"},
+      {"name":"HON. NICOMEDES F. SANTIAGO","position":"Barangay Kagawad","committee":"","contact":"0936-391-2009"},
+      {"name":"HON. MARCELINO V. ACOSTA","position":"Barangay Kagawad","committee":"","contact":"0935-302-8538"},
+      {"name":"HON. RONALDO V. VALDEZ","position":"Barangay Kagawad","committee":"","contact":"0926-330-3414"},
+      {"name":"HON. KELSO M. GOMEZ","position":"Barangay Kagawad","committee":"","contact":"0926-572-8337"}
+    ],
+    "development_thrust": {
+      "vision": null,
+      "mission": null
+    },
+    "notes":"Has additional barangay staff list (bookkeeper, health workers, etc.)."
+  },
+
+  "CURIFANG": {
+    "brief_history":`Barangay Curifang — familiarly known as 'Sinafal' — was officially named Curifang in 1968 by virtue of a Barrio Resolution changing the name 'SINAFAL' to 'CURIFANG'. 'Sinafal' came from the Gaddang words 'SINAY ANA TAFAL' (meaning 'in that place, there are a lot of gabi'), while Curifang derives from 'CURIPENG', a kind of tree that abounds in the hills. In 1935 the first inhabitants were Gaddangs and Ifugaos; in the 1960s Mr. Lumicao brought Ilocano immigrants and they cleared forest into productive farms. Subsequent waves of migrants (Tagalogs, Visayans, Pampangueños, Bicolanos) were drawn by logging and later Igorots arrived. By 1975 Curifang had 1,637 residents. Today Curifang is a progressive barangay with a large elementary school, productive agricultural lands (703 hectares rice, 32.95 hectares corn) and diverse livelihood establishments. The barangay faces challenges such as portable water for upland puroks and malnutrition among a few children, but infrastructure (roads, covered court, daycare, health center) and services (Katarungang Pambarangay, VAWC desk, Senior Citizen’s Office) have strengthened local development.`,
+    "profile":{"puroks":7,"population_1975":1637,"main_economic_activity":"Agriculture (rice, corn, vegetables)"},
+    "officials":[
+      {"name":"HON. ELMER Z. LINGAYU","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. PATRICK Z. BOADO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ARIEL P. PADILLA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. GLENN P. YARCIA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JAYSON S. BOLANTE","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. EDWIN G. BOLANTE","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JOHNSON V. CRISOSTOMO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JOEY A. BRACEROS","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "notes":"Contains important infrastructures: elementary school, health center, covered court used also as evacuation center."
+  },
+
+  "DADAP": {
+    "brief_history":`The name DADAP was derived from the name of a stone that was discovered by hunters who called the stone DALAPDAP. The first settlers of the place were the Ifugaos, but most did not stay there for long because of threats to their lives by early leaders of the place. The remaining Ifugaos befriended the leaders until subsequently the Gaddangs, Pangasinenses and Ilocanos arrived because of its rich and fertile land. Beforehand, Barrio Dadap was a sitio of Barrio Bascaran. During the administration of the late Mayor Antonio L. Tottoc in 1960 a recommendation for creation of Barrio Dadap was approved dated February 11, 1960 under P.B. Resolution No. 35. The barrio lieutenant Ignacio Manzano petitioned the Provincial Board for official recognition as Barrio Dadap. Subsequent leaders include Mariano Raspado, Juan Blance, Hermilo Santiago, Reynaldo Raspado, Visitacion Raspado, Norbert C. Julian and Rudy E. Paranis. The duration of travel from Poblacion to Barangay is 10 to 15 minutes; it has Puroks I–IV and Patronal Fiesta/Foundation Days every 11th of February.`,
+    "date_of_creation":"Ratified/Plebiscite: February 11, 1960",
+    "profile":{"registered_voters":659,"precincts":4,"land_area":"60,986 sq.m (reported)","population_total":1041},
+    "officials":[
+      {"name":"HON. RUDY E. PARANIS","position":"Punong Barangay","committee":"","contact":"0905 341 2755"},
+      {"name":"HON. MARYLINDA L. JULIAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":"0915 666 7972"},
+      {"name":"HON. REX R. GONZALES","position":"Sangguniang Barangay Kagawad","committee":"","contact":"0936 433 2322"},
+      {"name":"HON. DOLORITA C. MALUYO","position":"Sangguniang Barangay Kagawad","committee":"","contact":"0995 574 7570"},
+      {"name":"HON. ERIC G. BOLANTE","position":"Sangguniang Barangay Kagawad","committee":"","contact":"0926 303 7260"},
+      {"name":"HON. ARNOLD R. BARTOLOME","position":"Sangguniang Barangay Kagawad","committee":"","contact":"0906 724 7058"},
+      {"name":"HON. ANGELINA J. MABUTI","position":"Sangguniang Barangay Kagawad","committee":"","contact":"0926 886 8865"},
+      {"name":"HON. DANILO R. RASPADO","position":"Sangguniang Barangay Kagawad","committee":"","contact":"0927 795 8053"}
+    ]
+  },
+
+  "LACTAWAN": {
+    "brief_history":`According to the old folks, Lactawan originated from the Ilocano word 'lactaw' meaning to cross over. The first creek you have to cross is found in Barangay San Luis; before Barangay San Luis was a sitio of Lactawan. On the eastern part of Lactawan is Aggub, and before going to Aggub you have to cross another creek. Because of the many creeks that you have to cross to enter Lactawan, the place was named Lactawan. Originally Lactawan had only thirty heads of families. It was headed by the late Pedro Cruz who was appointed Teniente Del Barrio. He was succeeded by Mariano Vicente who was elected by the people and became the first Barangay Captain of Lactawan. Through cooperative efforts of the Barangay Council and citizens, Lactawan continues to progress.`,
+    "date_of_creation":"May 12, 1927",
+    "area":"2,350,255 sq.m",
+    "officials":[
+      {"name":"HON. SHERWIN E. VICENTE","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. RAYMOND N. SANTOS","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ROCELIA T. STA. MARIA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ELMER M. DALIMOT","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MERCY M. AGGASID","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. KAREN P. MARCELO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. EDDIE A. APAGA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JERRY N. GAMBOL","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ]
+  },
+
+  "OSMENA": {
+    "brief_history":`The history of Solano traces to Fr. Alejandro Vidal who transferred to Bintauan in 1760 and organized the area. In 1805 Father Juan Molano ordered division of the town (Lumabang) into four districts; District 2 included sites such as Caldaan, Wacal, Bangaan, Mongcol, Gaud, San Luis, Lactawan, Aggub, Tucal, Uddiawan and Bintawan. District leaders bore the title Teniente del Barrio. Over time leadership included Emilio Fernandez, Pedro Angeles, Isidro Bolusan (served 1945–1958), Vulmaro Tomas, Vicente Lucas (1959–1970). Under Republic Act 6068 of 1970 District 2 became Barangay Osmeña (named for President Sergio Osmeña). The first elected Barangay Captain was Rufino Cadiente (1971–1990) and subsequent leaders implemented projects for barangay progress; notable leaders include Tranquilino Bangloy, Bernardo L. Rosales Jr., Oscar D. Corpuz, and Danilo E. Domingo (elected 2013 and re-elected 2018), with infrastructure and development projects undertaken during their administrations.`,
+    "date_of_creation":"1970 (Barangay renaming under RA 6068 / local resolution)",
+    "officials":[
+      {"name":"HON. DANILO E. DOMINGO","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. OSCAR D. CORPUZ","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MELIZZA D. MERCADO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. RAMON U. CADIENTE","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. OFELIA R. ANDES","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. CLIFFORD J. BOLUSAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MARCELINO M. PADILLA, JR.","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. RUBEN C. LABASAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "notes":"Notable long-serving leaders and development projects implemented."
+  },
+
+  "PD_GALIMA": {
+    "brief_history":`Barangay Pilar D. Galima was formerly part of Barangay San Luis and was formed from purok 6 comprising Sitios Gaud, Caldaan and Mongcol. The area has an extent of about 210 hectares largely devoted to agriculture. In 1990 a census showed sufficient population for purok 6 to become a barangay; a plebiscite was held and on October 5, 1991 Pilar Danguilan Galima was proclaimed a new, independent barangay. The date of fiesta is October 5. The creation was based on a successful, clean plebiscite and resolution, officially constituting Sitios Caldaan, Gaud and Mongcol as Barangay Pilar D. Galima.`,
+    "legal_basis":"Plebiscite Sept 22, 1991; proclaimed Oct 05, 1991", 
+    "fiesta":"October 5",
+    "officials":[
+      {"name":"HON. DEXTER Y. RUIZ","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. CEFERINO R. DECORO, JR.","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. RICHARD I. ROMERO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. LETICIA G. LAGUMBAY","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ADONIS B. AGGABO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. SERGIO A. RUIZ, JR.","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ESTRELITA Y. CRISTOBAL","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ROMMEL C. RIVERA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ]
+  },
+
+  "POBLACION_NORTH": {
+    "brief_history":`Barangay Poblacion North came into existence following a Municipal Council resolution on January 10, 1964 creating an additional district to better apportion municipal supervision. With PD 557 (1974) barrios were re-designated as barangays and Poblacion was divided; half became Barangay Poblacion North. Its symbol (designed by Danilo A. Badua, 1994) features a green circle behind a six-sided star (symbolizing unity and the six puroks), a wheel of commerce representing local trades, the blue color for peaceful means of livelihood, and a man propelling the wheel to symbolize individual responsibility and contribution to the barangay's progress. Patronal Fiesta/Foundation Day: December 23.`,
+    "patronal_fiesta":"December 23",
+    "officials":[
+      {"name":"HON. ANGELITO DL. TIONGSON","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. DANTE S. BAJO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. DOMINADOR T. TIONGSON, JR","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. BABY CORAZON V. CARIAGA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JHOANALYN L. AFAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. SOLITA T. DOMINGO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MARITES F. ALAVA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ROGELIO A. LIBAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "notes":"Symbol and meaning described (green circle, six-sided star, wheel of commerce)."
+  },
+
+  "POBLACION_SOUTH": {
+    "brief_history":`The center of Solano (Poblacion) included what later became Barangay Poblacion South. It was officially created in June 1973 during the incumbency of Mayor Osias D. Cadiente. Virgilio Fabian Sr. was appointed and later elected as the first Barangay Captain. After the EDSA Revolution Virgilio Ceballos was appointed, and the barangay hall was constructed during Pablo Cadaoas’s term. Long-serving Barangay Captain Rudy A. Salcedo (1989–2007) secured funding for a multi-purpose hall; subsequent leaders transferred barangay offices to the Solano Public Market and continued development. In 2016 Pedro 'Boy' C. Algeria gave up his post when elected Municipal Councilor and Robelyn Salcedo-Bayani became serving Punong Barangay (first lady Barangay Captain of Poblacion South). Founding Anniversary/Barangay Fiesta: every first Saturday of June.`,
+    "founding_anniversary":"First Saturday of June (founding: June, 1973)",
+    "officials":[
+      {"name":"HON. MELCHOR E. MARZO","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. CARY GIL V. BASSI","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JACKIE B. ABDULLAH","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. REYNALDO M. ROMANO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. LUCRECIA A. GATAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. KENNETH D. CEBALLOS","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ROBELYN S. BAYANI","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ADELINA A. CALAJE","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ]
+  },
+
+  "QUEZON": {
+    "brief_history":`In 1976 residents of Barrio Quezon celebrated bountiful harvests and named the barrio after President Manuel L. Quezon; local history also recalls Don Tomas Castillo (Apo Tomas), an Ilocano immigrant who protected settlers from Ifugao attacks and who played a key role in local defense. The barrio developed agriculturally and socially over time with patronal fiesta/foundation day on August 19.`,
+    "patronal_fiesta":"August 19",
+    "officials":[
+      {"name":"HON. LUIS A. CASTILLO","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. RICHARD RAMOS","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. EDDIE D. JASMIN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MARILYN V. SULTAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. FERMINA L. MARCOS","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. EDDIE B. VIERNES","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ROMEO G. DOMINCEL","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. CHRISTOPHER M. PERALTA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ]
+  },
+
+  "QUIRINO": {
+    "brief_history":`Barangay Quirino originated from District 4 and was created by virtue of R.A. 3590 (Barrio Charter). Formerly comprising Barrio Sinafal and Barrio Maddiangat of Quezon, Barangay Quirino also included Poblacion South and Bagahabag. In 1972, following the proclamation of Martial Law and the conversion of barrios into barangays, District 4 became Barangay Quirino named in honor of President Elpidio Quirino. Leaders over the years (e.g., Edwin L. Carabbacan Sr., Vicente Lagapa, Domingo B. Tamani, Efren C. Peralta, Sidioc G. Uy) pursued projects like day care renovations, acquisition of barangay lots, construction of the barangay multi-purpose hall, barangay nursery, street lights, and mini dump truck for solid waste management. Major community projects and collaborations with municipal and provincial governments and NGOs advanced barangay services and infrastructure.`,
+    "legal_basis":"R.A. 3590 (1950); converted to barangay (1972)", 
+    "date_of_fiesta":"November 18-30 (annual)",
+    "officials":[
+      {"name":"HON. WALTER D. SAVEDRA, SR.","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. LORETO O. LIMOS","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JOSE E. LIM","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. LEE BASIL G. GALIMA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. NEMIA T. LOPEZ","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ROMEO G. CADELIÑA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. FILOMENO G. RIVERA, JR.","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. BERNARDO C. GALLEVO, JR.","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "notes":"Multiple community projects (multi-purpose hall phases, road concreting, livelihood programs)."
+  },
+
+  "ROXAS": {
+    "brief_history":`In 1940 Barangay Roxas was originally called District 3 and was headed by Teniente del Barrio Severo Tamani Labog until World War II. The eastern ricefields (about 1,599.93 hectares) made Roxas a major palay producer and one of the largest barangays in Solano (approx. 10,000 population in 2006). In 1967 it was renamed Barangay Roxas and municipal officials oversaw developments including the creation of seven puroks (named after trees) and donation of the barangay hall lot by Mayor Heraldo Dagdag Dacayo and his wife. Roxas later hosted the New Municipal Hall, the Bureau of Fishery, and schools, and received awards such as 'Cleanest and Greenest' at the regional level.`,
+    "date_of_creation":"1940", 
+    "fiesta":"March 21-23",
+    "officials":[
+      {"name":"HON. EDWIN D. DACAYO","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. FRANCES LOVELY R. COLLADO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JOEMAR B. BLANCE","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MARIETTA C. DAGUIO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. DENNIS D. GAJO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. TINA DOROTHY B. TAMANI","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. DANIEL B. BARSICULA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. LINO L. DACAYO, JR.","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "notes":"Contains New Municipal Hall, Bureau of Fishery, and schools; awarded 'Cleanest and Greenest' at regional level."
+  },
+
+  "SAN_JUAN": {
+    "brief_history":`In 1920 early Ilocano settlers, led by Juan Gasmin and companions (Pedro Responso, Juan Jose, Florentino Velasquez, Simeon Basa and others), migrated to the area then called Sitio Capiddigan (from Piddig settlers). They built a chapel under the Iglesia Katolika Independiente and finished an irrigation canal to serve farms (project led by Juan Gasmin). World War II disrupted development but after 1946 local leaders such as Telesforo Espiritu (Tiniente del Barrio at Uddiawan) and Raymundo Sarmiento (Sitio San Juan leader) and others resumed development, constructing a school with nipa roofing and electing leaders. Sitio San Juan later became Barangay San Juan through successful initiatives and elections. Patronal Fiesta/Foundation Day: February 14.`,
+    "patronal_fiesta":"February 14",
+    "officials":[
+      {"name":"HON. NARDO E. RAMEL","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. ROLAND P. SUMABAT","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. DANILO C. MARQUEZ","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. GLORIA L. CAMACHO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ROLANDO M. LOMBOY","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JIMMY G. SAMSON","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ZENAIDA A. MAYO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. SAMUEL A. GANZAGAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "development_thrust":{"vision":"Premier producer of quality farm products with God-fearing, peaceful, progressive and healthy citizenry.","mission":"Responsive governance and community development."}
+  },
+
+  "SAN_LUIS": {
+    "brief_history":`San Luis was originally a few clusters of houses known as 'kabaldesan' and part of District 2 (now Osmeña). Families who pioneered the area included Acoba, Andres, Adalem, Aquino, Ramones, Baquiran, Bello, Bicad, Corpuz, Saguiuped, Cristobal, Daguio, Domingo, Fernandez, Somera, Galapon, Gavino, Hermoso, Javier, Guilao, Jordan, Pascua, Pascual, Ramos. The Barrio Autonomy Act (RA 2370) provided national aid and inspired local leaders to seek barrio status; through political efforts and council arrangements, Kabaldezan and surrounding areas were organized and in 1963 the Municipal Council passed Resolution No.9 S-63 creating Barrio San Luis (February 6, 1963). Early barrio lieutenants and captains included Felipe Javier, Bonifacio Desamito, Alejandro Constantino, Uzzi Guilao, Zosimo Fontanilla, Francisco S. Bicad, Genaro M. De Vera, Johnny V. Mendiguarin, and Ernesto D. Ramones Jr. The barangay's territory and boundaries were drafted by a committee headed by Vicente V. Quezada. Pilar D. Galima was later segregated from San Luis, adjusting its western boundary. San Luis continues to develop through the efforts of residents and local leadership.`,
+    "date_of_creation":"February 6, 1963 (Resolution No.9 S-63)",
+    "officials":[
+      {"name":"HON. ERNESTO D. RAMONES, JR.","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. JOHN VIC S. JOSE","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. DINA M. BALASSU","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MARIETA C. MENDIGUARIN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JAY P. RAMOS","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. DOMINADOR V. BATOON","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. DORMELYN A. BICAD","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JULIET D. NUÑEZ","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "notes":"Detailed local political history and boundary drafting committee described in source."
+  },
+
+  "TUCAL": {
+    "brief_history":`Sakbay nga nailasin a kas Barangay iti Tucal adda pakaistoryaan na nga nakaibasaran no kasano nga napanaganan iti Barangay Tucal. Idi a panawen saan pay a naisina daytoy a Barangay. Maysa daytoy a Sitio a saksakupen iti Barangay Aggub. Kinuna dagiti immuna a nagnaed a tattao, ti nagan na daytoy ket Sitio Tungkal. No kasano a nagbalin ken nabaliwan iti nagan na ket gapu ta idi a panawen kaykayat a pagpaspasyaran dagiti tattao. Adu ngamin a banag a makaay-ayo a Makita kas kadagiti kaykayo nga agbungbunga, adu iti lames a makalapan iti wa-ig ken iti kataltalunan ken nalami-is a miniyungan. Dagiti tattao nga um-umay iti daytoy a Sitio ket masmasda-aw da ta no apay dagiti bab-balay ket adda tungkal na kada suli, no agdamag dagiti tattao kadagiti panglakayen iti daytoy a Sitio ket sungbat da ket nalaglagda iti balay nu adda TUNGKAL na.
+
+No kasano a nagbalin iti Sitio Tungkal a Barangay Tucal ket maipagu kadagiti ubbing. Ngamin nu agawis dagiti ubbing nga mapan da iti daytoy a Sitio ket kuna da “ Intayon mapan tayo idiay Tucal”.`,
+    "officials":[ 
+      {"name":"HON. ROBERTO O. DIZON","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. RONALDO S. AGAS","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MADILYN T. DIZON","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ISAIAS L. CABADING","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ENRIQUE P. SANTIAGO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ROZEIL D. LOPEZ","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. FREDELITO L. FERRER","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. DANILO B. OJASTRO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ]
+  },
+
+  "UDDIAWAN": {
+    "brief_history":`Long ago the area was known as 'Bato't Pinki' after two large rocks near the school. Around 1914 Don Joaquin Velasquez, a migrant from Cervantes, Ilocos Sur, explored the western hills and befriended the local Ifugaos after a demonstration of his marksmanship and courage. The Ifugaos allowed him to hunt and he brought in settlers from neighboring provinces; he led in turning meadows into productive fields and in constructing irrigation canals from the Bintawan River. As more families arrived the place became known as 'Udi Awan' (later 'Uddiawan'). The barangay consists of sitios Mapaina, Salamague, Santo Domingo (now Brgy. San Juan), Tanap, Santol, and Communal, and is divided into seven puroks; in area it is one of the largest barangays with approximately 515 hectares of registered arable land.`,
+    "profile":{"sitios":["Mapaina","Salamague","Santo Domingo (now Brgy. San Juan)","Tanap","Santol","Communal"],"puroks":7,"registered_arable_land_hectares":515},
+    "officials":[ 
+      {"name":"HON. JESSIE C. DELOS REYES","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. VIC A. PALAFOX","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JOHNSON A. GALAMAY","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. RENATO S. CAPICIO, JR.","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JIMMY T. BONGDOL","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. FEDERICO L. DUMALE, JR.","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. VIRGINIA C. MANZANO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MARILOY S. HERMOSO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ]
+  },
+
+  "WACAL": {
+    "brief_history":`Wacal was once a forest zone within Lumabang (now Solano) and a roving place of Ifugao headhunters. In the 1890s families arrived to seek fortune and settled on the western part of the Poblacion; while clearing the land they found a creek with abundant fish and the activity of inserting hands into holes to catch fish was called 'cawal' in the Gaddang dialect — hence the name Wacal. Early settlers included Macario Castillo, Tomas Castillo, Antonio Castillo and Vicente Castillo. In 1901 Macario Valdez and his brother moved to Wacal. In 1912 an irrigation dam (Tanggal Mayor) was built at Wacal creek. The sitio petitioned and the governor approved its conversion into a barrio in 1931. Wacal has a dense population in the agricultural sector and continues to pursue livelihood and community projects. Patronal Fiesta: March 21; Barangay Fiesta: April 19.`,
+    "officials":[ 
+      {"name":"HON. JANETTE Q. CRISTOBAL","position":"Punong Barangay","committee":"","contact":""},
+      {"name":"HON. EDGAR D. CRISTOBAL","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ROLANDO C. BALIZA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. JULIETA P. CABONITALLA","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. ORLANDO V. COLLADO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. MICHAEL JHON C. DAULAYAN","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. REYNANTE C. VALDEZ","position":"Sangguniang Barangay Kagawad","committee":"","contact":""},
+      {"name":"HON. PEPE P. PARAJILLO","position":"Sangguniang Barangay Kagawad","committee":"","contact":""}
+    ],
+    "notes":"Has early irrigation developments and strong community project goals."
+  }
+,}];
+
+export default content;

@@ -30,6 +30,7 @@ export { municipalityStats, businessProfile, educationStats, landRates, incentiv
 export const navItems: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
+  { label: 'Barangays', href: '/barangays' },
   { label: 'Invest', href: '/invest' },
   { label: 'Contact', href: '/contact' },
 ];

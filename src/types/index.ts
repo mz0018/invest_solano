@@ -101,3 +101,38 @@ export interface PeopleItem {
   description: string;
   icon: string;
 }
+
+export interface BarangayOfficial {
+  name: string;
+  position: string;
+  committee: string;
+  contact: string;
+}
+
+export interface BarangayProfile {
+  id: string;
+  name: string;
+  briefHistory: string;
+  patronFiesta?: string;
+  legalBasis?: string;
+  dateOfCreation?: string;
+  profile?: {
+    populationTotal?: number;
+    landAreaHectares?: number;
+    puroks?: number;
+    mainEconomicActivity?: string;
+    population2014?: number;
+    votingPopulation2015?: number;
+    landArea?: string;
+    registeredVoters?: number;
+    precincts?: number;
+    sitios?: string[];
+    registeredArableLandHectares?: number;
+  };
+  officials: BarangayOfficial[];
+  developmentThrust?: {
+    vision?: string;
+    mission?: string | string[];
+  };
+  notes?: string;
+}
