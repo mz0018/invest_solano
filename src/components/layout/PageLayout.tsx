@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import { Header } from './Header';
 import { Footer } from './Footer';
+import { FadeIn } from '@/components/ui';
 
 interface PageLayoutProps {
   children: ReactNode;
@@ -11,7 +12,9 @@ export function PageLayout({ children }: PageLayoutProps) {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 pt-16 md:pt-20">
-        {children}
+        <FadeIn>
+          {children}
+        </FadeIn>
       </main>
       <Footer />
     </div>

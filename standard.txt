@@ -1,0 +1,67 @@
+Must have:
+
+Fast load time (< 2–3 seconds)
+
+Lazy loading images/components
+
+Code splitting
+
+Minified JS/CSS
+
+Optimized images (WebP/AVIF)
+
+CDN for assets
+
+Preloading important resources
+
+Metrics developers target:
+
+First Contentful Paint (FCP)
+
+Largest Contentful Paint (LCP)
+
+Time to Interactive (TTI)
+
+Cumulative Layout Shift (CLS)
+
+4. Accessibility (A11Y) ♿
+
+Modern websites must be accessible.
+
+Features include:
+
+Screen reader support
+
+ARIA labels
+
+Proper heading hierarchy
+
+Keyboard navigation
+
+High contrast options
+
+Modern websites prioritize experience.
+
+Features:
+
+Smooth animations
+
+Skeleton loaders
+
+Micro-interactions
+
+Dark mode
+
+Instant feedback
+
+Toast notifications
+
+Libraries:
+
+Framer Motion
+
+GSAP
+
+Lottie
+
+Offline support

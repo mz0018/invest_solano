@@ -1,0 +1,12 @@
+[✓] 
+Hero background - replace green gradient with main.webp + blur/grayscale overlay
+[✓] 
+Preload main.webp in index.html
+[✓] 
+Add loading="lazy" to images below the fold
+[✓] 
+Add page transition (simple fade)
+[✓] 
+Add scroll reveal (subtle fade-up)
+[•] 
+Enhance hover states (scale + shadow)
