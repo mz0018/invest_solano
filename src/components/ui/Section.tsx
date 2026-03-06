@@ -8,7 +8,7 @@ interface SectionProps {
 }
 
 const bgStyles = {
-  white: 'bg-green-700',
+  white: 'bg-white-50',
   gray: 'bg-gray-50',
   primary: 'bg-primary-600',
   gradient: 'bg-gradient-to-br from-primary-50 to-accent-50',
