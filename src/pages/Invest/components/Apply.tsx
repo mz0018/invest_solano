@@ -38,7 +38,7 @@ export function Apply() {
             </Card>
           </div>
           <Link to="/contact" className="inline-block mt-10">
-            <Button size="lg" className="bg-white text-primary-600 hover:bg-gray-100">
+            <Button size="lg" className="!bg-white !text-primary-600 hover:!bg-gray-100">
               Contact Investment Desk
             </Button>
           </Link>

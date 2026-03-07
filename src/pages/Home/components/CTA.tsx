@@ -17,7 +17,7 @@ export function CTA() {
             <Link to="/invest">
               <Button
                 size="lg"
-                className="w-full sm:w-auto bg-white text-primary-700 hover:bg-gray-100"
+                className="w-full sm:w-auto !bg-white !text-primary-700 hover:!bg-gray-100"
               >
                 Start Investment Process
               </Button>
@@ -27,7 +27,7 @@ export function CTA() {
               <Button
                 variant="outline"
                 size="lg"
-                className="w-full sm:w-auto border-white text-white hover:bg-primary-700"
+                className="w-full sm:w-auto !border-white !text-white hover:!bg-primary-700"
               >
                 Contact Investment Desk
                 <ArrowRight className="ml-2 w-5 h-5" />
