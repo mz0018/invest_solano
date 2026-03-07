@@ -13,13 +13,14 @@ export function Stats() {
             A thriving municipality with strong economic indicators and endless opportunities for growth.
           </p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4 lg:gap-6">
           {stats.map((stat, index) => (
             <StatsCard
               key={index}
               value={stat.value}
               label={stat.label}
-              className="py-6"
+              suffix={stat.suffix}
+              prefix={stat.prefix}
             />
           ))}
         </div>

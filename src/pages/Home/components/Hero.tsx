@@ -31,13 +31,12 @@ export function Hero() {
 
   return (
     <Section className="relative min-h-[90vh] flex items-center overflow-hidden">
-      <img 
-        src="/img/main.webp" 
-        alt=""
-        className="absolute inset-0 w-full h-full object-cover -z-10 bg-green-700"
+      <div 
+        className="absolute inset-0 -z-10 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/img/main.webp)' }}
       />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-green-900/80 via-green-800/70 to-green-900/90" />
-      <div className="absolute inset-0 -z-10 bg-black/30 backdrop-blur-[2px] grayscale" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-blue-900/80 via-blue-800/70 to-blue-900/90" />
+      <div className="absolute inset-0 -z-10 bg-black/70 backdrop-blur-[2px]" />
       <Container>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-2xl">

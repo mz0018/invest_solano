@@ -1,19 +1,19 @@
 export const municipalityStats = {
-  landArea: '14,000+ hectares',
-  barangays: 22,
-  population: '65,000+',
-  populationDensity: '150+ per sqkm',
-  populationGrowthRate: '2.5%',
-  workforce: '39,000+',
-  laborForce: '28,000+',
+  landArea: { value: 14000, suffix: 'hectares' },
+  barangays: { value: 22 },
+  population: { value: 65000, suffix: '+' },
+  populationDensity: { value: 150, suffix: 'per sqkm' },
+  populationGrowthRate: { value: 2.5, suffix: '%' },
+  workforce: { value: 39000, suffix: '+' },
+  laborForce: { value: 28000, suffix: '+' },
 };
 
 export const businessProfile = {
-  riceFarmers: '5,000+',
-  cornFarmers: '3,000+',
-  poultry: '100,000+ heads',
-  sme: '500+',
-  registeredBusinesses: '1,200+',
+  riceFarmers: { value: 5000, suffix: '+' },
+  cornFarmers: { value: 3000, suffix: '+' },
+  poultry: { value: 100000, suffix: 'heads' },
+  sme: { value: 500, suffix: '+' },
+  registeredBusinesses: { value: 1200, suffix: '+' },
   financialInstitutions: 8,
 };
 

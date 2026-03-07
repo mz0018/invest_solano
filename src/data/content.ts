@@ -43,12 +43,12 @@ export const heroSection: HeroSection = {
 };
 
 export const stats: Stat[] = [
-  { value: municipalityStats.population, label: 'Population' },
-  { value: municipalityStats.workforce, label: 'Workforce' },
-  { value: businessProfile.registeredBusinesses, label: 'Businesses' },
-  { value: municipalityStats.barangays.toString(), label: 'Barangays' },
-  { value: municipalityStats.landArea, label: 'Land Area' },
-  { value: municipalityStats.populationGrowthRate, label: 'Growth Rate' },
+  { value: municipalityStats.population.value, suffix: municipalityStats.population.suffix, label: 'Population' },
+  { value: municipalityStats.workforce.value, suffix: municipalityStats.workforce.suffix, label: 'Workforce' },
+  { value: businessProfile.registeredBusinesses.value, suffix: businessProfile.registeredBusinesses.suffix, label: 'Businesses' },
+  { value: municipalityStats.barangays.value, label: 'Barangays' },
+  { value: municipalityStats.landArea.value, suffix: municipalityStats.landArea.suffix, label: 'Land Area' },
+  { value: municipalityStats.populationGrowthRate.value, suffix: municipalityStats.populationGrowthRate.suffix, label: 'Growth Rate' },
 ];
 
 export const whyInvestItems: WhyInvestItem[] = [

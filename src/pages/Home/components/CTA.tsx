@@ -17,11 +17,12 @@ export function CTA() {
             <Link to="/invest">
               <Button
                 size="lg"
-                className="w-full sm:w-auto bg-white text-primary-600 hover:bg-gray-100"
+                className="w-full sm:w-auto bg-white text-primary-700 hover:bg-gray-100"
               >
                 Start Investment Process
               </Button>
             </Link>
+
             <Link to="/contact">
               <Button
                 variant="outline"

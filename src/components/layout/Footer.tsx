@@ -25,9 +25,9 @@ export function Footer() {
                 <li key={item.href}>
                   <Link
                     to={item.href}
-                    className="text-sm hover:text-primary-400 transition-colors flex items-center gap-1"
+                    className="text-sm hover:text-primary-400 transition-colors flex items-center gap-1 group"
                   >
-                    <ArrowRight size={14} className="flex-shrink-0" />
+                    <ArrowRight size={14} className="flex-shrink-0 group-hover:-translate-x-0.5 transition-transform" />
                     <span className="truncate">{item.label}</span>
                   </Link>
                 </li>
@@ -57,7 +57,7 @@ export function Footer() {
             <h3 className="font-semibold text-white mb-4">Business Hours</h3>
             <p className="text-sm text-gray-400">{contactInfo.hours}</p>
             <Link to="/invest">
-              <button className="mt-4 px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors">
+              <button className="mt-4 px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 hover:shadow-lg hover:scale-105 transition-all">
                 Start Investing
               </button>
             </Link>

@@ -1,7 +1,8 @@
 export interface Stat {
-  value: string;
+  value: number;
   label: string;
-  icon?: string;
+  suffix?: string;
+  prefix?: string;
 }
 
 export interface CardItem {
